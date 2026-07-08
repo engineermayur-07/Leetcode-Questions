@@ -39,15 +39,15 @@ Each solved problem lives in its own folder, named after the question:
 LeetCode-Solutions/
 │
 ├── 1967-Number-of-Strings-That-Appear-as-Substrings-in-Word/
-│   ├── ans.py
+│   ├── ans.cpp
 │   └── README.md
 │
 ├── 28-Find-the-Index-of-First-Occurrence-in-a-String/
-│   ├── ans.py
+│   ├── ans.cpp
 │   └── README.md
 │
 ├── 278-First-Bad-Version/
-│   ├── ans.py
+│   ├── ans.cpp
 │   └── README.md
 │
 ├── ...
