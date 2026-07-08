@@ -70,18 +70,18 @@ This repo is also where I practice using Git the way it's meant to be used — b
 
 ```
  main
-   │
-   ├──○ branch: First-Bad-Version      → solve → README → merge ──┐
-   │                                                                   │
-   ├──○ branch: Guess-Number-Higher-Or-Lower → solve → merge ──────┤
-   │                                                                   │
-   └────────────────────────────◄──────────────────────────────────────┘
+    │
+    ├──○ branch: First-Bad-Version      → solve → README → merge ──┐
+    │                                                                   │
+    ├──○ branch: Guess-Number-Higher-Or-Lower → solve → merge ──────┤
+    │                                                                   │
+    └────────────────────────────◄──────────────────────────────────────┘
 ```
 
 **Steps for every question:**
 
 1. 🌱 Create a new branch, named after the question.
-2. 🧩 Solve it — write `ans.py` and its `README.md` on that branch.
+2. 🧩 Solve it — write `ans.cpp` and its `README.md` on that branch.
 3. 💾 Commit using a consistent, dated format:
    ```
    dd-mm-yyyy Question_Name
