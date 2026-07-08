@@ -1,64 +1,101 @@
-# LeetCode Solutions
+# 🚀 LeetCode Solutions & Git Sandbox
 
-A personal collection of LeetCode problems I've solved, organized one folder per question. This repo is as much about **daily practice and consistency** as it is about the solutions themselves — and it's also where I've been learning and practicing a proper **Git branching workflow**.
+[![Language](https://shields.io)](https://isocpp.org)
+[![License](https://shields.io)](LICENSE)
+[![Streak](https://shields.io)](https://leetcode.com)
+
+A premium, organized repository dedicated to **daily practice, algorithmic consistency, and mastering version control workflow**. This project serves as a personal index of solved LeetCode challenges and an active sandbox for practicing production-grade Git branching.
 
 ---
 
-## Repo Structure
+## 🎯 Core Objectives
 
-Each solved problem lives in its own folder, named after the question:
+*   **Algorithmic Mastery** — Reinforcing core patterns (Two-Pointer, Binary Search, Sliding Window, Graphs).
+*   **Deep Documentation** — Writing detailed execution breakdowns, not just raw code.
+*   **Git Engineering** — Cultivating production-level branching and merging literacy.
+*   **Unbroken Consistency** — Showing up daily, rain or shine, to solve 1–2 problems.
 
-```
+---
+
+## 📂 Repository Structure
+
+The project follows a strict **one-folder-per-question** architecture to maintain maximum isolation and readability:
+
+```text
 LeetCode-Solutions/
 ├── 1967-Number-of-Strings-That-Appear-as-Substrings-in-Word/
-│   ├── ans.py
+│   ├── ans.cpp
 │   └── README.md
 ├── 28-Find-the-Index-of-First-Occurrence-in-a-String/
-│   ├── ans.py
+│   ├── ans.cpp
 │   └── README.md
 ├── 278-First-Bad-Version/
-│   ├── ans.py
+│   ├── ans.cpp
 │   └── README.md
-├── ...
-└── README.md   ← (this file)
+└── README.md  🡠 (You are here)
 ```
 
-Every question folder contains:
-* **`ans.py`** — my solution code.
-* **`README.md`** — a write-up of the problem following a consistent template:
-  1. Problem Title & Difficulty (with link)
-  2. Problem Statement
-  3. Approach / Intuition
-  4. Complexity Analysis (Time & Space)
-  5. Code Walkthrough
+### 📄 Inside Each Question Folder
+Every sub-directory contains an explicit two-file ecosystem:
+1.  `ans.cpp` — The fully tested C++ implementation.
+2.  `README.md` — A structured write-up mapping out the solution:
+    *   Problem Link & Difficulty Tier
+    *   Formal Problem Statement
+    *   Algorithmic Intuition & Approach
+    *   Big-O Complexity Analysis ($Time \ \& \ Space$)
+    *   Line-by-Line Code Walkthrough
 
 ---
 
-## Git Workflow
+## 🌿 Production Git Workflow
 
-This repo doubles as a sandbox for practicing Git properly instead of just committing straight to `main`. The workflow I follow for every question:
+To avoid bad habits like direct pushing, this repo operates under a strict feature-branch workflow modeling real-world engineering teams:
 
-1. Create a new branch named after the question being solved.
-2. Solve the problem and write the README on that branch.
-3. Commit with the format:
-   ```
-   dd-mm-yyyy Question_Name
-   ```
-4. Merge the branch back into `main`.
+```mermaid
+gitGraph
+    commit id: "Initial Setup"
+    branch find-index
+    checkout find-index
+    commit id: "08-07-2026 Find_Index"
+    checkout main
+    merge find-index
+    branch bad-version
+    checkout bad-version
+    commit id: "09-07-2026 Bad_Version"
+    checkout main
+    merge bad-version
+```
 
-This keeps every problem's history isolated on its own branch before joining the main line, which has been a good way to get comfortable with branching, committing, and merging in a low-stakes setting.
+### 🔄 The Routine
+1.  **Branch Isolation** — Spawn a new branch for the targeted LeetCode problem.
+2.  **Implementation** — Author the C++ solution and compile natively.
+3.  **Strict Commit Format** — Commit changes using the specific date schema:
+    ```bash
+    git commit -m "DD-MM-YYYY Question_Name_Here"
+    ```
+4.  **Mainlining** — Safely merge the feature branch back into the main deployment line (`main`).
 
 ---
 
-## Why This Repo Exists
+## 🛠️ Tech Stack & Requirements
 
-* **Consistency** — Solving 1-2 questions a day and logging them, rain or shine.
-* **Practice** — Reinforcing problem-solving patterns (two-pointer, binary search, sliding window, etc.) across a growing catalog.
-* **Documentation** — Writing out the approach and complexity for each problem, both for my own future reference and to build the habit of explaining *why* a solution works, not just *what* it does.
-* **Git Literacy** — Using branches and merges intentionally, rather than just pushing to `main`.
+*   **Language:** C++ (Standard template library heavily utilized)
+*   **Compiler:** Modern GCC/Clang compiler supporting C++17 or higher (On LeetCode)
+*   **Build Execution:**
+    ```bash
+    g++ -O3 -std=c++17 ans.cpp -o solution
+    ./solution
+    ```
 
 ---
 
-## Progress
+## 📈 Current Progress
 
-More problems are added regularly as I continue solving daily. Check the folder list above (or browse the repo) for the current set of solved questions.
+The codebase grows dynamically every single day. 
+
+*Want to review an approach? Dive into any specific directory listed above to see the structural breakdown and Big-O efficiency profiles.*
+
+---
+<p align="center">
+  Prepared with 💙 by Mayur B Gund, a developer pursuing continuous learning.
+</p>
