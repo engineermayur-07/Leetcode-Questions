@@ -9,8 +9,8 @@
 [![Workflow](https://img.shields.io/badge/Workflow-Branch%20per%20Question-orange?style=for-the-badge&logo=git&logoColor=white)](#-git-workflow)
 [![Consistency](https://img.shields.io/badge/Daily-1--2%20Problems-brightgreen?style=for-the-badge&logo=googlecalendar&logoColor=white)](#)
 
-[![Repo Size](https://img.shields.io/github/repo-size/engineermayur-07/LeetCode-Solutions?style=flat-square&color=blueviolet)](#)
-[![Last Commit](https://img.shields.io/github/last-commit/engineermayur-07/LeetCode-Solutions?style=flat-square&color=informational)](#)
+[![Repo Size](https://img.shields.io/github/repo-size/engineermayur-07/LeetCode-Questions?style=flat-square&color=blueviolet)](#)
+[![Last Commit](https://img.shields.io/github/last-commit/engineermayur-07/LeetCode-Questions?style=flat-square&color=informational)](#)
  
 
 </div>
