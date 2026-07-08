@@ -5,7 +5,7 @@
 ### *Consistency over intensity — one problem at a time.*
 
 [![LeetCode](https://img.shields.io/badge/LeetCode-Solutions-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/)
-[![Languages](https://img.shields.io/badge/Languages-C++%20%7C%20Python-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)](#)
+[![Languages](https://img.shields.io/badge/Languages-C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)](#)
 [![Workflow](https://img.shields.io/badge/Workflow-Branch%20per%20Question-orange?style=for-the-badge&logo=git&logoColor=white)](#-git-workflow)
 [![Consistency](https://img.shields.io/badge/Daily-1--2%20Problems-brightgreen?style=for-the-badge&logo=googlecalendar&logoColor=white)](#)
 
